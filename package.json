@@ -1,0 +1,20 @@
+{
+    "name": "react-theme-faithful",
+    "publisher": "MoonHealth",
+    "displayName": "React Theme",
+    "description": "A color theme actually faithful to React's website.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "React Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/React Theme-color-theme.json"
+        }]
+    }
+}
