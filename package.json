@@ -1,21 +1,23 @@
 {
-    "name": "react-theme-faithful",
-    "publisher": "MoonHealth",
-    "displayName": "React Theme",
-    "description": "A color theme actually faithful to React's website.",
-    "repository": "https://github.com/oessaid/react-theme-faithful",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [{
-            "label": "React Theme",
-            "uiTheme": "vs-dark",
-            "path": "./themes/React Theme-color-theme.json"
-        }]
-    }
+  "name": "react-theme-faithful",
+  "publisher": "MoonHealth",
+  "displayName": "React Theme",
+  "description": "A color theme actually faithful to React's website.",
+  "repository": "https://github.com/oessaid/react-theme-faithful",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "React Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/React Theme-color-theme.json"
+      }
+    ]
+  }
 }
