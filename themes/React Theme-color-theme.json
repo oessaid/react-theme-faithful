@@ -77,11 +77,11 @@
     "editorWidget.background": "#21222c",
     "focusBorder": "#23272e",
     "foreground": "#f8f8f2",
-    "gitDecoration.conflictingResourceForeground": "#88C6BE",
-    "gitDecoration.deletedResourceForeground": "#fc929e",
+    "gitDecoration.conflictingResourceForeground": "#fc929e",
+    "gitDecoration.deletedResourceForeground": "#ffb86c",
     "gitDecoration.ignoredResourceForeground": "#44475a",
     "gitDecoration.modifiedResourceForeground": "#ffb86c",
-    "gitDecoration.untrackedResourceForeground": "#88C6BE",
+    "gitDecoration.untrackedResourceForeground": "#8dc891",
     "input.background": "#282a36",
     "input.border": "#000000",
     "input.foreground": "#eeffff",
@@ -93,12 +93,12 @@
     "list.activeSelectionBackground": "#44475a",
     "list.activeSelectionForeground": "#f8f8f2",
     "list.dropBackground": "#44475a",
-    "list.errorForeground": "#ff5555",
+    "list.errorForeground": "#f8f8f2",
     "list.focusBackground": "#44475a75",
     "list.highlightForeground": "#8be9fd",
     "list.hoverBackground": "#44475a75",
     "list.inactiveSelectionBackground": "#44475a75",
-    "list.warningForeground": "#ffb86c",
+    "list.warningForeground": "#f8f8f2",
     "panel.background": "#23272e",
     "panel.border": "#00000040",
     "panelTitle.activeForeground": "#f8f8f2",
@@ -146,7 +146,7 @@
     "terminal.foreground": "#f8f8f2",
     "titleBar.activeBackground": "#20232a",
     "titleBar.inactiveBackground": "#23272e",
-    "walkThrough.embeddedEditorBackground": "#21222c"
+    "walkThrough.embeddedEditorBackground": "#21222c",
     //"activityBar.activeBorder": "#f8f8f2",
     //"activityBar.dropBackground": "#ffffff1f",
     //"activityBar.inactiveForeground": "#f8f8f266",
@@ -317,7 +317,7 @@
     //"sideBarSectionHeader.border": "#00000040",
     //"sideBarSectionHeader.foreground": "#bbbbbb",
     //"sideBarTitle.foreground": "#bbbbbb",
-    //"statusBar.debuggingBackground": "#cc6633",
+    "statusBar.debuggingBackground": "#FAC863",
     //"statusBar.debuggingForeground": "#ffffff",
     //"statusBar.foreground": "#ffffff",
     //"statusBar.noFolderForeground": "#ffffff",
@@ -386,8 +386,7 @@
     //"tree.indentGuidesStroke": "#585858",
     //"widget.shadow": "#000000"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comments",
       "scope": [
         "comment",
